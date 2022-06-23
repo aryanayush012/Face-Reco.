@@ -1,0 +1,96 @@
+body{
+    background-color: #0f0b0b;
+}
+ .center{
+     background-color:  #0f0b0b;
+     margin-left: auto;
+     margin-right: auto;
+
+ }
+ .center h1{
+     color: white;
+ }
+ .center h5{color: #d62626;}
+
+ .logo{
+     background-color: rgb(151, 145, 145);
+     color: #d62626;
+     text-shadow: yellow;
+     align-items: left;
+     align-items: flex-start;
+ }
+ .logo button{
+     background-color: rgb(14, 13, 13);
+     text-align: center;
+     color: white;
+     font-size: small;
+     padding: 10px 30px;
+     border-radius: 12px;
+     
+     transition-duration: 0.4s;     
+ }
+ .logo button:hover {
+    background-color: red; 
+    color: white;
+    box-shadow: #d62626;
+  }
+  .logo button a{
+      color: wheat;
+      
+  }
+ .features{
+     background-color: #0f0b0b;
+     color: white;
+     height: 80px;
+     
+ }
+ .features a{
+     color: white;
+     transition-duration: 0.4s; 
+}
+ .features a:hover{color: #d62626;}
+ 
+ .try-now{
+    background-color: rgb(24, 22, 22);
+    color: white;
+ }
+ .try-now h1{color: white;}
+ .try-now p{color: rgb(216, 49, 49);}
+
+ .try-now button{
+    padding-left: 0%;
+    text-align: center;
+     color: white;
+     font-size: medium;
+     height: 100px;
+     width: 100px;
+     border: 1px solid red;
+     border-radius: 50%;
+    
+    transition-duration: 0.4s; 
+ }
+ .try-now button a img{
+    padding: auto;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+ }
+ .try-now button:hover{color: red;}
+
+ .features2{
+    background-color:  #221c1c1f;
+
+ }
+ .features2 h2{color: white;}
+ .features2 h6{color: #d62626;}
+
+ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
